@@ -35,3 +35,9 @@
     const name = "react"
     <div>{name}</div>
 ```
+
+### className 사용방법
+- import './app.css'
+```HTML
+    <div className='클레스명'>{name}</div>
+```
