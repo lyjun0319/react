@@ -37,7 +37,17 @@
 ```
 
 ### className 사용방법
-- import './app.css'
+- import './app.css' 추가
 ```HTML
+    <div className='클레스명'>{name}</div>
+```
+
+### 주석 사용 방법
+```HTML
+    {/* 사용할 주석 */}
+    <div
+        // 사용할 주석 내용
+    >
+    </div>
     <div className='클레스명'>{name}</div>
 ```
