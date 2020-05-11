@@ -1,14 +1,21 @@
 import React from 'react';
 import Hello from './hello';
-import './App.css'
+import Wrapper from './Wrapper';
+import Counter from './Counter';
+
 
 function App() {
-  const name = "react";
   return (
-      <>
-      <div className='gray-box'>{name}</div>
-      <Hello />
-      </>
+    <>
+    <Wrapper>
+      <Hello name="react" color="red" isSpacial/>
+      <Hello color="pink"/>
+    </Wrapper>
+
+    <>
+      <Counter />
+    </>
+    </>
   );
 }
 
